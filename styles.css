@@ -1,0 +1,99 @@
+.main {
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #e4fbff;
+}
+
+section {
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 100%;
+}
+.title {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.bar {
+  height: 0.25rem;
+  width: 5rem;
+  background: #84dfff;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.review {
+  background-color: #fff;
+  padding: 10px 15px;
+  border-radius: 2px;
+  text-align: center;
+  margin: 20px;
+}
+.imgContainer {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+}
+
+#person {
+  width: 100%;
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  position: relative;
+}
+
+#author {
+  text-transform: uppercase;
+  margin-bottom: 0.25rem;
+}
+#info {
+  margin-bottom: 0.25rem;
+}
+#job {
+  color: #84dfff;
+  margin: 0.5rem;
+  text-transform: uppercase;
+  font-size: small;
+}
+
+.prevBtn,
+.nextBtn {
+  color: #84dfff;
+  font-size: 1.25rem;
+  background: transparent;
+  border-color: transparent;
+  margin: 0 0.5rem;
+  cursor: pointer;
+}
+.prevBtn:hover,
+.nextBtn:hover {
+  color: #84dfff;
+}
+
+.customBtn {
+  margin-top: 0.5rem;
+  background-color: #84dfff;
+  color: #fff;
+  padding: 0.25rem 0.5rem;
+  text-transform: capitalize;
+  border-radius: 5px;
+  border-color: #c9ccd5;
+  cursor: pointer;
+}
+.customBtn:hover {
+  background-color: #81f5ff;
+  color: #808b97;
+}
+
+@media screen and (min-width: 992px) {
+  section {
+    width: 80%;
+  }
+}
